@@ -1,0 +1,19 @@
+Python 2.7.3 (v2.7.3:70274d53c1dd, Apr  9 2012, 20:52:43) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+('Number of [ in 0 is: ', 1)
+('Number of [ in 1 is: ', 2)
+('Number of [ in 2 is: ', 4)
+('Number of [ in 3 is: ', 8)
+('Number of [ in 4 is: ', 16)
+('Number of [ in 5 is: ', 32)
+('Number of [ in 6 is: ', 64)
+('Number of [ in 7 is: ', 128)
+Help on function repcnt in module __main__:
+
+repcnt(n)
+    Return the number of open brackets '[' in the 'set of sets given by 'n'
+
+>>> 
