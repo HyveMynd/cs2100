@@ -1,0 +1,3 @@
+The design is pretty simple. Using 4 NAND gates I was able to replicate the function of a 2:1 MUX.  One NAND gate was used to invert the selector 'S'. Once the selector was inverted, the second NAND gate was used to NAND !S and i0. A third NAND gate was used for S NAND i1. Lastly, the results of the second and third NAND gates was put through a fourth NAND to arrive at the final output. 
+
+A 2:1 MUX was used to to confirm the same result, and lastly an XNOR gate was used to prove the result is always on (true).
